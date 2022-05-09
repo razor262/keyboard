@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.textarea {
+  display: block;
+  padding: 20px;
+  width: 700px;
+  height: 200px;
+  font-size: 16px;
+  margin: 40px auto;
+}
+
+.keyboard {
+  width: 665px;
+  margin: 0 auto;
+}
+
+.keyboard .row {
+  clear: both;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 5px;
+}
+
+.keyboard .keybutton {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  margin-left: 5px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.keyboard .keybutton.hover {
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.keyboard .shift {
+  width: 102px;
+}
+
+.keyboard .enter, .keyboard .caps {
+  width: 80px;
+}
+
+.keyboard .backsp, .keyboard .tab {
+  width: 75px;
+}
+
+.keyboard .space {
+  width: 330px;
+}
+
+.keyboard .alt, .keyboard .fn {
+  width: 45px;
+}
+
+.keyboard .ctrl {
+  width: 65px;
+}
+
+.text{
+  display: inline;
+}
+.textup {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
